@@ -4,6 +4,26 @@
 <title>Sign in</title>
 </head>
 <body>
-
+<form action="request" method="get" enctype="application/x-www-form-urlencoded" name="user name" target="_self" dir="ltr">
+  <table width="50%" border="0">
+    <tr>
+      <th scope="col">Members Log In</th>
+    </tr>
+    <tr>
+      <td align="left" valign="middle"><p> UserEmail:
+          <input name="name" type="text" id="name" size="25" maxlength="50" readonly="readonly" />
+      </p></td>
+    </tr>
+    <tr>
+      <td valign="middle">Password:
+        <input name="Password" type="password" id="Password" size="27" maxlength="150" readonly="readonly" /></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">Enter:
+        <input type="submit" name="send data" id="send data" value="Submit" />
+      <input type="reset" name="send data2" id="send data2" value="Reset" /></td>
+    </tr>
+  </table>
+</form>
 </body>
 </html>
